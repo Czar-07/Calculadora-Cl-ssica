@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Operações com Texto</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/strings.css" />
+  <link rel="shortcut icon" href="img/Homem-Vitruviano-Icon.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">Calculadora Clássica</div>
+    <div class="estrela">✦✧✦</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="aritmeticos.html">Aritméticos</a>
+      <a href="relacionas.html">Relacionais</a>
+      <a href="logicos.html">Lógicos</a>
+      <a href="datas.html">Datas</a>
+      <a href="operacoes.html">Operações</a>
+      <a href="strings.html">Strings</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <h2>Editor de Texto Estilizado</h2>
+
+    <textarea id="textInput" placeholder="Digite seu texto aqui..."></textarea>
+
+    <div class="controls">
+      <label for="fontSize">Tamanho:</label>
+      <input type="range" id="fontSize" min="12" max="48" value="16" />
+      <span id="fontSizeValue">16px</span>
+
+      <label for="fontFamily">Fonte:</label>
+      <select id="fontFamily">
+        <option value="Arial">Arial</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Verdana">Verdana</option>
+      </select>
+
+      <label for="fontColor">Cor:</label>
+      <input type="color" id="fontColor" value="#000000" />
+
+      <button id="saveBtn">Salvar</button>
+    </div>
+
+    <div id="output">Seu texto será exibido aqui.</div>
+
+    <h3>Textos Salvos</h3>
+    <div id="savedTexts"></div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">Calculadora Clássica</div>
+      <div class="footer-estrela">✦✧✦</div>
+      <div class="footer-nav">
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Cálculos com um Toque de Magia. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/strings.js"></script>
+</body>
+</html>
