@@ -91,7 +91,7 @@ main{
     padding: 80px 0px;
     
     background-color: rgba(255, 255, 255, 0.455);
-    background-image: url('../img/Calculadora-ornamentada.png');
+    background-image: url('../img/Tempo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
@@ -102,6 +102,7 @@ main > section{
     height: 400px;
     width: auto;
     margin: 20px;
+    border-radius: 12px;
 }
 
 main > section > h2{
@@ -157,6 +158,8 @@ main > #rel{
     background-color: #f8f4e3;
     height: 400px;
     width: 500px;
+    border-radius: 10px;
+    opacity: 0.7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,7 +167,7 @@ main > #rel{
 
 main > #rel > h1{
     font-size: 4em;
-    text-decoration: underline;
+
 }
 
 /* Rodapé */
